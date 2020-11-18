@@ -1,2 +1,3 @@
 From ubuntu:centos 
-RUN apt-get update && apt-get install -y apache2 
+RUN yum update -y
+RUN yum install httpd -y
